@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+  background-color: #f0f8ff; /* Light blue background */
+  width: 400px; /* Increased width for the popup */
+  height: auto; /* Let the height grow as needed */
+  box-sizing: border-box; /* Ensures padding is included in total width/height */
+}
+
+h1 {
+  color: #4CAF50; /* Green header */
+  text-align: center;
+  font-size: 24px;
+}
+
+input {
+  padding: 12px 15px; /* Increased padding for better spacing */
+  margin: 10px 0;
+  width: 100%; /* Ensure the input takes up full width */
+  border: 2px solid #4CAF50; /* Green border */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box; /* Ensure padding doesn't overflow */
+  transition: border-color 0.3s, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+input:focus {
+  border-color: #2196F3; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5); /* Blue glow on focus */
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px; /* Rounded corners */
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+}
+
+li:nth-child(odd) {
+  background-color: #f9f9f9; /* Alternating row color */
+}
+
+li:nth-child(even) {
+  background-color: #e8f5e9; /* Alternating row color */
+}
